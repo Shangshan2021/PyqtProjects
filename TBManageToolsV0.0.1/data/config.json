@@ -1,0 +1,1 @@
+{"API": {"\u9ed8\u8ba4": "https://open.teambition.com/api/task/tqlsearch", "TQL": "https://open.teambition.com/api/task/tqlsearch"}, "User": {"\u9ed8\u8ba4": "63310bc0b2b7b2cf2ca8a3b2", "\u9122\u5b87\u822a": "63310bc0b2b7b2cf2ca8a3b2"}, "method": {"Get": "get", "Post": "post", "Put": "put", "Del": "del"}, "edit": {"API": "API", "User": "User"}}

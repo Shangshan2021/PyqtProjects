@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widget_main</class>
+ <widget class="QWidget" name="widget_main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>751</width>
+    <height>482</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Send Mail</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+    background-color: rgb(255,195,195);
+    font-family: Lucida Bright;
+    }
+QPushButton{
+    background-color: gray;
+    border-style: outset;
+    border-width: 2px;
+    border-color: beige;
+    border-radius: 14px;
+    padding: 6px;
+	font-family: Lucida Bright;
+    }
+QWidget#MainWidget{
+    background-color: rgb(240,248,255);
+    font-family: Lucida Bright;
+    }
+QLabel{
+	font-family: Lucida Bright;
+	}
+QTextEdit{
+	font-family: Lucida Bright;
+	}
+QComboBox{
+	font-family: Lucida Bright;
+	}
+</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QWidget" name="widget_4" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_content">
+        <property name="text">
+         <string>Content</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="textEdit_content"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_attach">
+        <property name="text">
+         <string>Add File As Attachment</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_filedata">
+        <property name="text">
+         <string>Add FileData Into Content</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label_recipient">
+        <property name="text">
+         <string>Recipients</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="textEdit_send"/>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_recipient"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_recipient">
+        <property name="text">
+         <string>Add Recipient</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_sender">
+        <property name="text">
+         <string>Sender</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_sender"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_sender">
+        <property name="text">
+         <string>Send</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

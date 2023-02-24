@@ -1,0 +1,1 @@
+{"api": "https://open.teambition.com/api/task/tqlsearch", "method": "Post", "user": "\u9122\u5b87\u822a", "params": "", "object": "tql:_projectId=629b238658c336a0958d6fd3 AND isArchived = false", "condition": "", "back": "content\nnote", "recipients": "yixian.wang@uwa4d.com"}

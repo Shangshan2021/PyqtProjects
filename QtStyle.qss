@@ -1,0 +1,31 @@
+QPushButton{
+    background-color: gray;
+    border-style: outset;
+    border-width: 2px;
+    border-color: beige;
+    border-radius: 14px;
+    padding: 6px;
+	font-family: Lucida Bright;
+    }
+
+QLabel{
+	font-family: Lucida Bright;
+	}
+QTextEdit{
+	font-family: Lucida Bright;
+	}
+QComboBox{
+	font-family: Lucida Bright;
+	}
+QTimeEdit{
+    background-color: rgb(240,248,255);
+    font-family: Lucida Bright;
+    }
+QDateEdit{
+    background-color: rgb(240,248,255);
+    font-family: Lucida Bright;
+    }
+QWidget#MainWidget{
+background-color: rgb(240,248,255);
+font-family: Lucida Bright;
+}
